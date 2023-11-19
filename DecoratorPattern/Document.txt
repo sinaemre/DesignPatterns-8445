@@ -1,0 +1,6 @@
+﻿Decorator Pattern
+
+Dekoratör deseni, sınıfta değişiklik yapmadan ilgili sınıfa dinamik olarak davranış eklememize izin vermektedir. Bu desen yeni davranış eklerken, kod tabanımızda yani hali haızrda var olan kod bloğumuzda SOC(Seperation Of Concerns) ve OCP(Open/Closed Princible) prensibine güçlü bir şekilde kullanmamıza izin verir. Ancak aynı zamanda size gerektiğinde davranış ekleme, kaldırma yani modifikasyon işlemlerinde sizlere esneklik verir. 
+
+Somut bir örnek üzerinden düşünürsek, bir silah fabrikam olduğunu ve bu fabrikada M4 rifle ürettiğimizi düşünelim. Üretilen bu standart assoult tüfeklerini, client ihtiyaçları doğrultusunda oluşturuduğu istekler ile modifie etmektedir. Yani ham halde bulunan çalışan M4 tüfeğini gece yapılacak operasyona göre modifiye edilmesi olarak gösterebiliriz. 
+
